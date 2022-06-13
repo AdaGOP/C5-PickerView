@@ -45,4 +45,8 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         pickerData[row]
     }
     
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        print(pickerData[row])
+    }
+    
 }
